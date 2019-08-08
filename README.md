@@ -21,7 +21,7 @@ yarn start
 ## Routes
 
 ```
-The application has a single public route which is accessible locally at (https://localhost:3000/calculate), 3000 being an arbitrary port number set in the index file.
+The application has a single public route which is accessible locally at (https://localhost:3000), 3000 being an arbitrary port number set in the index file.
 ```
 
 The application allows a user pass in three compulsory values - `monthly subscription amount`, an `annual rate` and a `tenure or period`.
