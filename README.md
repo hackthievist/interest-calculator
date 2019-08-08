@@ -21,10 +21,10 @@ yarn start
 ## Routes
 
 ```
-The application has a single public route which is accessible locally at (https://localhost:3000/calculate)
+The application has a single public route which is accessible locally at (https://localhost:3000/calculate), 3000 being an arbitrary port number set in the index file.
 ```
 
-The application allows a user pass in three compulsory values - monthly subscription amount, an annual rate and a tenure or period.
+The application allows a user pass in three compulsory values - `monthly subscription amount`, an `annual rate` and a `tenure or period`.
 The calculator processes the inputed values and returns the total investment amount, total interest and total investment returns.
 
 ## Contributing
