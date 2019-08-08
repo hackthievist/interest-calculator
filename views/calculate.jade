@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  .main.container
+    .row
+      .col-md-6.col-md-offset-3
+        h1.display-4.m-b-2 SFS Fixed Income Funds
+
+        form(method='POST' action='/calculate')
+          div.form-group
+            label(for='subscription') Monthly Subscription:
+            input#subscription.form-control(type='number', placeholder='Monthly Subscription' name='subscription')
+          div.form-group
+            label(for='rate') Annual Rate:
+            input#rate.form-control(type='number', placeholder='Annual Rate' name='rate')
+          div.form-group
+            label(for='tenure') Tenure/Duration:
+            input#tenure.form-control(type='text', placeholder='Tenure (in months)' name='tenure')
+
+          button.btn.btn-primary(type='submit') Calculate Investment
